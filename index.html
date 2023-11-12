@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Intermediate HTML Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <a href="/">Home</a>
+    <a href="/page2.html">About</a>
+    <a href="/contact.html">Contact</a>
+    <hr>
+    <h1>Here is the main section of our page - it consist of a new articles</h1>
+    <h2>Article 1 - 1995 was pretty crazy year for programming languages!</h2>
+
+    Don't believe me? Just checkthis table out:
+
+    <table>
+      <thead>
+        <tr>
+          <th>Language</th>
+          <th>Designed By</th>
+          <th>First Appeared</th>
+        </tr>
+        
+      </thead>
+      <tbody>
+        <tr>
+          <td>C++</td>
+          <td>Guido R.</td>
+          <td>1983<td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>Guido R.</td>
+          <td>1991</td>
+        </tr>
+        <tr>
+          <td>Ruby</td>
+          <td>Yukihiro M.</td>
+          <td>1995</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>James G.</td>
+          <td>1995</td>
+        </tr>
+        <tr>
+          <td>PHP</td>
+          <td>Rasmus L.</td>
+          <td>1995</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Articke 2 - Coming soon..</h2>
+    <h2>Contact us!</h2>
+    <h2>General Information</h2>
+
+    <form>
+      <div>
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" name="first-name" value=""><br>
+  
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" name="last-name" value=""><br>
+  
+        <label for="email"> Email</label>
+        <input type="email" id="email" name="email" value=""><br>
+  
+        <label for="dob"> Date Of Birth</label>
+        <input type="date" id="dob" name="date" value=""><br>
+      </div>
+      
+      <h2>Essential Questions</h2>
+      <span>What lind of work do you need?</span> <br>
+
+      <!-- Check Boxes -->
+      <div>
+        <label for="progrramming">Progrramming</label>
+        <input type="checkbox" id="progrramming" name="progrramming" value=""><br>
+  
+        <label for="design">Design</label>
+        <input type="checkbox" id="design" name="design" value=""><br>
+  
+        <label for="singing"> singing</label>
+        <input type="checkbox" id="singing" name="singing" value=""><br>
+  
+        <label for="comedy">Comedy</label>
+        <input type="checkbox" id="comedy" name="comedy" value=""><br><br>
+      </div>
+      
+      <span>How intereeseted are you in our design skills?</span> <br>
+      <!-- Radio Buttons -->
+      <div>
+        <label for="veryLowRB">Very Low</label>
+        <input type="radio" id="veryLowRB" name="interest" value="VeryLow"><br>
+  
+        <label for="lowRB">Low</label>
+        <input type="radio" id="lowRB" name="interest" value="Low"><br>
+  
+        <label for="MediumRB"> Medium</label>
+        <input type="radio" id="MediumRB" name="interest" value="Medium"><br>
+  
+        <label for="HighRB">High</label>
+        <input type="radio" id="HighRB" name="interest" value="High"><br>
+  
+        <label for="VeryHighRB">Very High</label>
+        <input type="radio" id="VeryHighRB" name="interest" value="VeryHigh"><br>
+      </div>
+      
+
+      <input type="submit" value="submitMe">
+    </form>
+
+    <footer>
+      Here is our footer. Springboard&copy
+    </footer>
+
+  </body>
+</html>
